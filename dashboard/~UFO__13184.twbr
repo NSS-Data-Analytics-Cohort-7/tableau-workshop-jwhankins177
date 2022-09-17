@@ -1,0 +1,1015 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0812.0353                               -->
+<workbook original-version='18.1' source-build='2022.2.1 (20222.22.0812.0353)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='ufo_sightings_scrubbed' inline='true' name='federated.0klmeab11xp0sr1dei9ew1mrb98m' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ufo_sightings_scrubbed' name='textscan.0blcyex0beu4st120vjau1ysnuul'>
+            <connection class='textscan' directory='C:/Users/jhank/Desktop/data' filename='ufo_sightings_scrubbed.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0blcyex0beu4st120vjau1ysnuul' name='ufo_sightings_scrubbed.csv' table='[ufo_sightings_scrubbed#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='datetime' name='datetime' ordinal='0' />
+            <column datatype='string' name='city' ordinal='1' />
+            <column datatype='string' name='state' ordinal='2' />
+            <column datatype='string' name='country' ordinal='3' />
+            <column datatype='string' name='shape' ordinal='4' />
+            <column datatype='integer' name='duration (seconds)' ordinal='5' />
+            <column datatype='string' name='duration (hours/min)' ordinal='6' />
+            <column datatype='string' name='comments' ordinal='7' />
+            <column datatype='date' name='date posted' ordinal='8' />
+            <column datatype='real' name='latitude' ordinal='9' />
+            <column datatype='real' name='longitude ' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0blcyex0beu4st120vjau1ysnuul' name='ufo_sightings_scrubbed.csv' table='[ufo_sightings_scrubbed#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='datetime' name='datetime' ordinal='0' />
+            <column datatype='string' name='city' ordinal='1' />
+            <column datatype='string' name='state' ordinal='2' />
+            <column datatype='string' name='country' ordinal='3' />
+            <column datatype='string' name='shape' ordinal='4' />
+            <column datatype='integer' name='duration (seconds)' ordinal='5' />
+            <column datatype='string' name='duration (hours/min)' ordinal='6' />
+            <column datatype='string' name='comments' ordinal='7' />
+            <column datatype='date' name='date posted' ordinal='8' />
+            <column datatype='real' name='latitude' ordinal='9' />
+            <column datatype='real' name='longitude ' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ufo_sightings_scrubbed.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>datetime</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[datetime]</local-name>
+            <parent-name>[ufo_sightings_scrubbed.csv]</parent-name>
+            <remote-alias>datetime</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[ufo_sightings_scrubbed.csv]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[ufo_sightings_scrubbed.csv]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[ufo_sightings_scrubbed.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shape</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shape]</local-name>
+            <parent-name>[ufo_sightings_scrubbed.csv]</parent-name>
+            <remote-alias>shape</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>duration (seconds)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[duration (seconds)]</local-name>
+            <parent-name>[ufo_sightings_scrubbed.csv]</parent-name>
+            <remote-alias>duration (seconds)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>duration (hours/min)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[duration (hours/min)]</local-name>
+            <parent-name>[ufo_sightings_scrubbed.csv]</parent-name>
+            <remote-alias>duration (hours/min)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>comments</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[comments]</local-name>
+            <parent-name>[ufo_sightings_scrubbed.csv]</parent-name>
+            <remote-alias>comments</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date posted</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date posted]</local-name>
+            <parent-name>[ufo_sightings_scrubbed.csv]</parent-name>
+            <remote-alias>date posted</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[ufo_sightings_scrubbed.csv]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude ]</local-name>
+            <parent-name>[ufo_sightings_scrubbed.csv]</parent-name>
+            <remote-alias>longitude </remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='ufo_sightings_scrubbed.csv' datatype='table' name='[__tableau_internal_object_id__].[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]' role='measure' type='quantitative' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Comments - Split 10' datatype='string' name='[comments - Split 10]' role='dimension' type='nominal' user:SplitFieldIndex='10' user:SplitFieldOrigin='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[comments]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [comments], &quot; &quot;, 10 ) )' />
+      </column>
+      <column caption='Comments - Split 1' datatype='string' name='[comments - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[comments]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [comments], &quot; &quot;, 1 ) )' />
+      </column>
+      <column caption='Comments - Split 2' datatype='string' name='[comments - Split 2]' role='dimension' type='nominal' user:SplitFieldIndex='2' user:SplitFieldOrigin='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[comments]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [comments], &quot; &quot;, 2 ) )' />
+      </column>
+      <column caption='Comments - Split 3' datatype='string' name='[comments - Split 3]' role='dimension' type='nominal' user:SplitFieldIndex='3' user:SplitFieldOrigin='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[comments]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [comments], &quot; &quot;, 3 ) )' />
+      </column>
+      <column caption='Comments - Split 4' datatype='string' name='[comments - Split 4]' role='dimension' type='nominal' user:SplitFieldIndex='4' user:SplitFieldOrigin='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[comments]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [comments], &quot; &quot;, 4 ) )' />
+      </column>
+      <column caption='Comments - Split 5' datatype='string' name='[comments - Split 5]' role='dimension' type='nominal' user:SplitFieldIndex='5' user:SplitFieldOrigin='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[comments]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [comments], &quot; &quot;, 5 ) )' />
+      </column>
+      <column caption='Comments - Split 6' datatype='string' name='[comments - Split 6]' role='dimension' type='nominal' user:SplitFieldIndex='6' user:SplitFieldOrigin='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[comments]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [comments], &quot; &quot;, 6 ) )' />
+      </column>
+      <column caption='Comments - Split 7' datatype='string' name='[comments - Split 7]' role='dimension' type='nominal' user:SplitFieldIndex='7' user:SplitFieldOrigin='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[comments]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [comments], &quot; &quot;, 7 ) )' />
+      </column>
+      <column caption='Comments - Split 8' datatype='string' name='[comments - Split 8]' role='dimension' type='nominal' user:SplitFieldIndex='8' user:SplitFieldOrigin='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[comments]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [comments], &quot; &quot;, 8 ) )' />
+      </column>
+      <column caption='Comments - Split 9' datatype='string' name='[comments - Split 9]' role='dimension' type='nominal' user:SplitFieldIndex='9' user:SplitFieldOrigin='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[comments]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [comments], &quot; &quot;, 9 ) )' />
+      </column>
+      <column caption='Comments' datatype='string' name='[comments]' role='dimension' type='nominal' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Date Posted' datatype='date' name='[date posted]' role='dimension' type='ordinal' />
+      <column caption='Datetime' datatype='datetime' name='[datetime]' role='dimension' type='ordinal' />
+      <column caption='Duration (Hours/Min)' datatype='string' name='[duration (hours/min)]' role='dimension' type='nominal' />
+      <column caption='Duration (Seconds)' datatype='integer' name='[duration (seconds)]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude ]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Shape' datatype='string' name='[shape]' role='dimension' type='nominal' />
+      <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <drill-paths>
+        <drill-path name='country, state, city'>
+          <field>[country]</field>
+          <field>[state]</field>
+          <field>[city]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ufo_sightings_scrubbed.csv' id='ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869'>
+            <properties context=''>
+              <relation connection='textscan.0blcyex0beu4st120vjau1ysnuul' name='ufo_sightings_scrubbed.csv' table='[ufo_sightings_scrubbed#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='datetime' name='datetime' ordinal='0' />
+                  <column datatype='string' name='city' ordinal='1' />
+                  <column datatype='string' name='state' ordinal='2' />
+                  <column datatype='string' name='country' ordinal='3' />
+                  <column datatype='string' name='shape' ordinal='4' />
+                  <column datatype='integer' name='duration (seconds)' ordinal='5' />
+                  <column datatype='string' name='duration (hours/min)' ordinal='6' />
+                  <column datatype='string' name='comments' ordinal='7' />
+                  <column datatype='date' name='date posted' ordinal='8' />
+                  <column datatype='real' name='latitude' ordinal='9' />
+                  <column datatype='real' name='longitude ' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='comment_text_clean' inline='true' name='federated.16h91ce1cltyg91bf7x3m1m0dha9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='comment_text_clean' name='textscan.17orexf0xn6l4q10oymq31fy9yy4'>
+            <connection class='textscan' directory='C:/Users/jhank/Desktop/data' filename='comment_text_clean.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='string' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Comments - Split 10]' />
+            <value name='[Comments - Split 1]' />
+            <value name='[Comments - Split 2]' />
+            <value name='[Comments - Split 3]' />
+            <value name='[Comments - Split 4]' />
+            <value name='[Comments - Split 5]' />
+            <value name='[Comments - Split 6]' />
+            <value name='[Comments - Split 7]' />
+            <value name='[Comments - Split 8]' />
+            <value name='[Comments - Split 9]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[comment_text_clean.csv].[Comments - Split 10]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 1]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 2]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 3]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 4]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 5]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 6]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 7]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 8]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 9]' />
+            </group>
+          </groups>
+          <relation connection='textscan.17orexf0xn6l4q10oymq31fy9yy4' name='comment_text_clean.csv' table='[comment_text_clean#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Comments - Split 1' ordinal='0' />
+              <column datatype='string' name='Comments - Split 10' ordinal='1' />
+              <column datatype='string' name='Comments - Split 2' ordinal='2' />
+              <column datatype='string' name='Comments - Split 3' ordinal='3' />
+              <column datatype='string' name='Comments - Split 4' ordinal='4' />
+              <column datatype='string' name='Comments - Split 5' ordinal='5' />
+              <column datatype='string' name='Comments - Split 6' ordinal='6' />
+              <column datatype='string' name='Comments - Split 7' ordinal='7' />
+              <column datatype='string' name='Comments - Split 8' ordinal='8' />
+              <column datatype='string' name='Comments - Split 9' ordinal='9' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='string' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Comments - Split 10]' />
+            <value name='[Comments - Split 1]' />
+            <value name='[Comments - Split 2]' />
+            <value name='[Comments - Split 3]' />
+            <value name='[Comments - Split 4]' />
+            <value name='[Comments - Split 5]' />
+            <value name='[Comments - Split 6]' />
+            <value name='[Comments - Split 7]' />
+            <value name='[Comments - Split 8]' />
+            <value name='[Comments - Split 9]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[comment_text_clean.csv].[Comments - Split 10]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 1]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 2]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 3]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 4]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 5]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 6]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 7]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 8]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 9]' />
+            </group>
+          </groups>
+          <relation connection='textscan.17orexf0xn6l4q10oymq31fy9yy4' name='comment_text_clean.csv' table='[comment_text_clean#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Comments - Split 1' ordinal='0' />
+              <column datatype='string' name='Comments - Split 10' ordinal='1' />
+              <column datatype='string' name='Comments - Split 2' ordinal='2' />
+              <column datatype='string' name='Comments - Split 3' ordinal='3' />
+              <column datatype='string' name='Comments - Split 4' ordinal='4' />
+              <column datatype='string' name='Comments - Split 5' ordinal='5' />
+              <column datatype='string' name='Comments - Split 6' ordinal='6' />
+              <column datatype='string' name='Comments - Split 7' ordinal='7' />
+              <column datatype='string' name='Comments - Split 8' ordinal='8' />
+              <column datatype='string' name='Comments - Split 9' ordinal='9' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[comment_text_clean.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_AC24CED688A2411AAACABA9C77AA2738]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_AC24CED688A2411AAACABA9C77AA2738]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='comment_text_clean.csv' datatype='table' name='[__tableau_internal_object_id__].[comment_text_clean.csv_AC24CED688A2411AAACABA9C77AA2738]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='comment_text_clean.csv' id='comment_text_clean.csv_AC24CED688A2411AAACABA9C77AA2738'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='string' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[Comments - Split 10]' />
+                  <value name='[Comments - Split 1]' />
+                  <value name='[Comments - Split 2]' />
+                  <value name='[Comments - Split 3]' />
+                  <value name='[Comments - Split 4]' />
+                  <value name='[Comments - Split 5]' />
+                  <value name='[Comments - Split 6]' />
+                  <value name='[Comments - Split 7]' />
+                  <value name='[Comments - Split 8]' />
+                  <value name='[Comments - Split 9]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[comment_text_clean.csv].[Comments - Split 10]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 1]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 2]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 3]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 4]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 5]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 6]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 7]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 8]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 9]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.17orexf0xn6l4q10oymq31fy9yy4' name='comment_text_clean.csv' table='[comment_text_clean#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='string' name='Comments - Split 1' ordinal='0' />
+                    <column datatype='string' name='Comments - Split 10' ordinal='1' />
+                    <column datatype='string' name='Comments - Split 2' ordinal='2' />
+                    <column datatype='string' name='Comments - Split 3' ordinal='3' />
+                    <column datatype='string' name='Comments - Split 4' ordinal='4' />
+                    <column datatype='string' name='Comments - Split 5' ordinal='5' />
+                    <column datatype='string' name='Comments - Split 6' ordinal='6' />
+                    <column datatype='string' name='Comments - Split 7' ordinal='7' />
+                    <column datatype='string' name='Comments - Split 8' ordinal='8' />
+                    <column datatype='string' name='Comments - Split 9' ordinal='9' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Duration_shape'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ufo_sightings_scrubbed' name='federated.0klmeab11xp0sr1dei9ew1mrb98m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0klmeab11xp0sr1dei9ew1mrb98m'>
+            <column caption='Duration (Seconds)' datatype='integer' name='[duration (seconds)]' role='measure' type='quantitative' />
+            <column-instance column='[shape]' derivation='None' name='[none:shape:nk]' pivot='key' type='nominal' />
+            <column caption='Shape' datatype='string' name='[shape]' role='dimension' type='nominal' />
+            <column-instance column='[duration (seconds)]' derivation='Sum' name='[sum:duration (seconds):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[none:shape:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[sum:duration (seconds):qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0klmeab11xp0sr1dei9ew1mrb98m].[none:shape:nk]</rows>
+        <cols>[federated.0klmeab11xp0sr1dei9ew1mrb98m].[sum:duration (seconds):qk]</cols>
+      </table>
+      <simple-id uuid='{9775EEB6-D080-408C-A886-84FD7C4B4FAB}' />
+    </worksheet>
+    <worksheet name='Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ufo_sightings_scrubbed' name='federated.0klmeab11xp0sr1dei9ew1mrb98m' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0klmeab11xp0sr1dei9ew1mrb98m'>
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[Longitude (generated)]' field-type='quantitative' max='-781500.06185945496' min='-24262903.572015464' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[Latitude (generated)]' field-type='quantitative' max='11543700.899040559' min='-973108.84414794063' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <lod column='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[none:city:nk]' />
+              <geometry column='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='711' />
+                <format attr='maxwidth' value='711' />
+                <format attr='minheight' value='379' />
+                <format attr='maxheight' value='379' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0klmeab11xp0sr1dei9ew1mrb98m].[Latitude (generated)]</rows>
+        <cols>[federated.0klmeab11xp0sr1dei9ew1mrb98m].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{A32D33B2-2AF6-48B8-A36B-F55501154387}' />
+    </worksheet>
+    <worksheet name='Sightings_year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ufo_sightings_scrubbed' name='federated.0klmeab11xp0sr1dei9ew1mrb98m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0klmeab11xp0sr1dei9ew1mrb98m'>
+            <_.fcp.ObjectModelTableType.false...column caption='ufo_sightings_scrubbed.csv' datatype='integer' name='[__tableau_internal_object_id__].[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='ufo_sightings_scrubbed.csv' datatype='table' name='[__tableau_internal_object_id__].[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]' role='measure' type='quantitative' />
+            <column caption='Datetime' datatype='datetime' name='[datetime]' role='dimension' type='ordinal' />
+            <column-instance column='[datetime]' derivation='Year-Trunc' name='[tyr:datetime:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0klmeab11xp0sr1dei9ew1mrb98m].[__tableau_internal_object_id__].[cnt:ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869:qk]</rows>
+        <cols>[federated.0klmeab11xp0sr1dei9ew1mrb98m].[tyr:datetime:qk]</cols>
+      </table>
+      <simple-id uuid='{84BC2C78-9370-4C23-88A4-255503BB022C}' />
+    </worksheet>
+    <worksheet name='shape_peryear'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ufo_sightings_scrubbed' name='federated.0klmeab11xp0sr1dei9ew1mrb98m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0klmeab11xp0sr1dei9ew1mrb98m'>
+            <_.fcp.ObjectModelTableType.false...column caption='ufo_sightings_scrubbed.csv' datatype='integer' name='[__tableau_internal_object_id__].[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='ufo_sightings_scrubbed.csv' datatype='table' name='[__tableau_internal_object_id__].[ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869]' role='measure' type='quantitative' />
+            <column-instance column='[latitude]' derivation='Avg' name='[avg:latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[longitude ]' derivation='Avg' name='[avg:longitude :qk]' pivot='key' type='quantitative' />
+            <column caption='Datetime' datatype='datetime' name='[datetime]' role='dimension' type='ordinal' />
+            <column caption='Duration (Seconds)' datatype='integer' name='[duration (seconds)]' role='measure' type='quantitative' />
+            <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude ]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column-instance column='[duration (seconds)]' derivation='Sum' name='[sum:duration (seconds):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[datetime]' derivation='Year-Trunc' name='[tyr:datetime:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[avg:latitude:qk]' />
+              <lod column='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[avg:longitude :qk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[__tableau_internal_object_id__].[cnt:ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[avg:latitude:qk]' />
+              <lod column='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[avg:longitude :qk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[sum:duration (seconds):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[avg:latitude:qk]' />
+              <lod column='[federated.0klmeab11xp0sr1dei9ew1mrb98m].[avg:longitude :qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0klmeab11xp0sr1dei9ew1mrb98m].[__tableau_internal_object_id__].[cnt:ufo_sightings_scrubbed.csv_0631B0E4F55D495595A6EE35A9D94869:qk] + [federated.0klmeab11xp0sr1dei9ew1mrb98m].[sum:duration (seconds):qk])</rows>
+        <cols>[federated.0klmeab11xp0sr1dei9ew1mrb98m].[tyr:datetime:qk]</cols>
+      </table>
+      <simple-id uuid='{CD37D3CB-B535-42DC-B83C-9E4E4020BA09}' />
+    </worksheet>
+    <worksheet name='wordcloud'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='comment_text_clean' name='federated.16h91ce1cltyg91bf7x3m1m0dha9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16h91ce1cltyg91bf7x3m1m0dha9'>
+            <column datatype='string' name='[Pivot Field Values]' role='dimension' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Count' name='[cnt:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pivot Field Values]' derivation='None' name='[none:Pivot Field Values:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.16h91ce1cltyg91bf7x3m1m0dha9].[none:Pivot Field Values:nk]'>
+            <groupfilter count='20' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([Pivot Field Values])' function='order' user:ui-marker='order'>
+                <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+                  <groupfilter function='level-members' level='[none:Pivot Field Values:nk]' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;\&quot;a\&quot;&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1 30am&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1 Fireballs&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1 What&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1 amp 9&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1-13-09  44gable&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1-2-3-4-Red/Orange&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1-2AM&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1-Apr&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1-Mar&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1-daylight&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1:00AM&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1:00a m&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1:00am&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1:05AM&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1:15am&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;1:30am&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;a&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;in&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;the&quot;' />
+                  </groupfilter>
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.16h91ce1cltyg91bf7x3m1m0dha9].[none:Pivot Field Values:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.16h91ce1cltyg91bf7x3m1m0dha9].[cnt:Pivot Field Values:qk]' />
+              <text column='[federated.16h91ce1cltyg91bf7x3m1m0dha9].[none:Pivot Field Values:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{35FEC8A0-E0D3-4A56-A5B8-976127E09157}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='11' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='9' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+              <zone h='98000' id='7' type-v2='layout-basic' w='98400' x='800' y='1000'>
+                <zone h='49000' id='3' name='Map' w='49200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='49000' id='5' name='Duration_shape' w='49200' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='49000' id='6' name='Sightings_year' w='49200' x='50000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='49000' id='12' name='shape_peryear' w='49200' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='13' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Map' w='49200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='6' is-fixed='true' name='Sightings_year' w='49200' x='50000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='5' is-fixed='true' name='Duration_shape' w='49200' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='12' is-fixed='true' name='shape_peryear' w='49200' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{9DA24375-051A-470B-BC78-0E6AAB41D0B0}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='51'>
+    <window class='worksheet' name='Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='38'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{652DD589-E1DF-478E-84CE-4D843B86E2B4}' />
+    </window>
+    <window class='worksheet' name='Duration_shape'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E8C30FE8-2353-4D6D-8F4F-1486DEDF2EA8}' />
+    </window>
+    <window class='worksheet' name='Sightings_year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5EAF8C48-93B1-48A6-AE50-840B9FF147E8}' />
+    </window>
+    <window class='worksheet' maximized='true' name='wordcloud'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2335E438-F7A1-4E0B-9CA2-C9F40FDD5AA0}' />
+    </window>
+    <window class='worksheet' name='shape_peryear'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5538ADC0-97D0-4A87-B99F-58B6F2CE42F2}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Duration_shape' />
+        <viewpoint name='Map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sightings_year'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='shape_peryear'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='12' />
+      <simple-id uuid='{2562C5CF-1EED-4884-84B7-BF1958B70FD1}' />
+    </window>
+  </windows>
+</workbook>
