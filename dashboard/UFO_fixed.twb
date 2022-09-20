@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20222.22.0812.0353                               -->
-<workbook original-version='18.1' source-build='2022.2.1 (20222.22.0812.0353)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2022.2.1 (20222.22.0812.0353)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
@@ -22,7 +22,6 @@
     <ZoneBackgroundTransparency />
     <ZoneFriendlyName />
   </document-format-change-manifest>
-  <repository-location id='UFO_16637070993170' path='/workbooks' revision='1.0' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -33,11 +32,214 @@
     </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
   </_.fcp.AnimationOnByDefault.false...style>
   <datasources>
+    <datasource caption='comment_text_clean' inline='true' name='federated.16h91ce1cltyg91bf7x3m1m0dha9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='comment_text_clean' name='textscan.17orexf0xn6l4q10oymq31fy9yy4'>
+            <connection class='textscan' directory='C:/Users/jhank/Desktop/data' filename='comment_text_clean.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='string' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Comments - Split 10]' />
+            <value name='[Comments - Split 1]' />
+            <value name='[Comments - Split 2]' />
+            <value name='[Comments - Split 3]' />
+            <value name='[Comments - Split 4]' />
+            <value name='[Comments - Split 5]' />
+            <value name='[Comments - Split 6]' />
+            <value name='[Comments - Split 7]' />
+            <value name='[Comments - Split 8]' />
+            <value name='[Comments - Split 9]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[comment_text_clean.csv].[Comments - Split 10]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 1]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 2]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 3]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 4]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 5]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 6]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 7]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 8]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 9]' />
+            </group>
+          </groups>
+          <relation connection='textscan.17orexf0xn6l4q10oymq31fy9yy4' name='comment_text_clean.csv' table='[comment_text_clean#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Comments - Split 1' ordinal='0' />
+              <column datatype='string' name='Comments - Split 10' ordinal='1' />
+              <column datatype='string' name='Comments - Split 2' ordinal='2' />
+              <column datatype='string' name='Comments - Split 3' ordinal='3' />
+              <column datatype='string' name='Comments - Split 4' ordinal='4' />
+              <column datatype='string' name='Comments - Split 5' ordinal='5' />
+              <column datatype='string' name='Comments - Split 6' ordinal='6' />
+              <column datatype='string' name='Comments - Split 7' ordinal='7' />
+              <column datatype='string' name='Comments - Split 8' ordinal='8' />
+              <column datatype='string' name='Comments - Split 9' ordinal='9' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='string' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Comments - Split 10]' />
+            <value name='[Comments - Split 1]' />
+            <value name='[Comments - Split 2]' />
+            <value name='[Comments - Split 3]' />
+            <value name='[Comments - Split 4]' />
+            <value name='[Comments - Split 5]' />
+            <value name='[Comments - Split 6]' />
+            <value name='[Comments - Split 7]' />
+            <value name='[Comments - Split 8]' />
+            <value name='[Comments - Split 9]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[comment_text_clean.csv].[Comments - Split 10]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 1]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 2]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 3]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 4]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 5]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 6]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 7]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 8]' />
+              <field name='[comment_text_clean.csv].[Comments - Split 9]' />
+            </group>
+          </groups>
+          <relation connection='textscan.17orexf0xn6l4q10oymq31fy9yy4' name='comment_text_clean.csv' table='[comment_text_clean#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Comments - Split 1' ordinal='0' />
+              <column datatype='string' name='Comments - Split 10' ordinal='1' />
+              <column datatype='string' name='Comments - Split 2' ordinal='2' />
+              <column datatype='string' name='Comments - Split 3' ordinal='3' />
+              <column datatype='string' name='Comments - Split 4' ordinal='4' />
+              <column datatype='string' name='Comments - Split 5' ordinal='5' />
+              <column datatype='string' name='Comments - Split 6' ordinal='6' />
+              <column datatype='string' name='Comments - Split 7' ordinal='7' />
+              <column datatype='string' name='Comments - Split 8' ordinal='8' />
+              <column datatype='string' name='Comments - Split 9' ordinal='9' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[comment_text_clean.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_AC24CED688A2411AAACABA9C77AA2738]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_AC24CED688A2411AAACABA9C77AA2738]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='comment_text_clean.csv' datatype='table' name='[__tableau_internal_object_id__].[comment_text_clean.csv_AC24CED688A2411AAACABA9C77AA2738]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='comment_text_clean.csv' id='comment_text_clean.csv_AC24CED688A2411AAACABA9C77AA2738'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='string' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[Comments - Split 10]' />
+                  <value name='[Comments - Split 1]' />
+                  <value name='[Comments - Split 2]' />
+                  <value name='[Comments - Split 3]' />
+                  <value name='[Comments - Split 4]' />
+                  <value name='[Comments - Split 5]' />
+                  <value name='[Comments - Split 6]' />
+                  <value name='[Comments - Split 7]' />
+                  <value name='[Comments - Split 8]' />
+                  <value name='[Comments - Split 9]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[comment_text_clean.csv].[Comments - Split 10]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 1]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 2]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 3]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 4]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 5]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 6]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 7]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 8]' />
+                    <field name='[comment_text_clean.csv].[Comments - Split 9]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.17orexf0xn6l4q10oymq31fy9yy4' name='comment_text_clean.csv' table='[comment_text_clean#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='string' name='Comments - Split 1' ordinal='0' />
+                    <column datatype='string' name='Comments - Split 10' ordinal='1' />
+                    <column datatype='string' name='Comments - Split 2' ordinal='2' />
+                    <column datatype='string' name='Comments - Split 3' ordinal='3' />
+                    <column datatype='string' name='Comments - Split 4' ordinal='4' />
+                    <column datatype='string' name='Comments - Split 5' ordinal='5' />
+                    <column datatype='string' name='Comments - Split 6' ordinal='6' />
+                    <column datatype='string' name='Comments - Split 7' ordinal='7' />
+                    <column datatype='string' name='Comments - Split 8' ordinal='8' />
+                    <column datatype='string' name='Comments - Split 9' ordinal='9' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
     <datasource caption='ufo_sightings_scrubbed' inline='true' name='federated.0klmeab11xp0sr1dei9ew1mrb98m' version='18.1'>
       <connection class='federated'>
         <named-connections>
           <named-connection caption='ufo_sightings_scrubbed' name='textscan.0blcyex0beu4st120vjau1ysnuul'>
-            <connection class='textscan' directory='C:/Users/jhank/Desktop/data' filename='ufo_sightings_scrubbed.csv' password='' server='' workgroup-auth-mode='as-is' />
+            <connection class='textscan' directory='C:/Users/jhank/Desktop/data' filename='ufo_sightings_scrubbed.csv' password='' server='' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0blcyex0beu4st120vjau1ysnuul' name='ufo_sightings_scrubbed.csv' table='[ufo_sightings_scrubbed#csv]' type='table'>
@@ -477,406 +679,6 @@
                   <column datatype='date' name='date posted' ordinal='8' />
                   <column datatype='real' name='latitude' ordinal='9' />
                   <column datatype='real' name='longitude ' ordinal='10' />
-                </columns>
-              </relation>
-            </properties>
-            <properties context='extract'>
-              <relation name='Extract' table='[Extract].[Extract]' type='table' />
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
-    <datasource caption='comment_text_clean' inline='true' name='federated.16h91ce1cltyg91bf7x3m1m0dha9' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='comment_text_clean' name='textscan.17orexf0xn6l4q10oymq31fy9yy4'>
-            <connection class='textscan' directory='C:/Users/jhank/Desktop/data' filename='comment_text_clean.csv' password='' server='' workgroup-auth-mode='as-is' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.17orexf0xn6l4q10oymq31fy9yy4' name='comment_text_clean.csv' table='[comment_text_clean#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='string' name='Comments - Split 1' ordinal='0' />
-            <column datatype='string' name='Comments - Split 10' ordinal='1' />
-            <column datatype='string' name='Comments - Split 2' ordinal='2' />
-            <column datatype='string' name='Comments - Split 3' ordinal='3' />
-            <column datatype='string' name='Comments - Split 4' ordinal='4' />
-            <column datatype='string' name='Comments - Split 5' ordinal='5' />
-            <column datatype='string' name='Comments - Split 6' ordinal='6' />
-            <column datatype='string' name='Comments - Split 7' ordinal='7' />
-            <column datatype='string' name='Comments - Split 8' ordinal='8' />
-            <column datatype='string' name='Comments - Split 9' ordinal='9' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.17orexf0xn6l4q10oymq31fy9yy4' name='comment_text_clean.csv' table='[comment_text_clean#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='string' name='Comments - Split 1' ordinal='0' />
-            <column datatype='string' name='Comments - Split 10' ordinal='1' />
-            <column datatype='string' name='Comments - Split 2' ordinal='2' />
-            <column datatype='string' name='Comments - Split 3' ordinal='3' />
-            <column datatype='string' name='Comments - Split 4' ordinal='4' />
-            <column datatype='string' name='Comments - Split 5' ordinal='5' />
-            <column datatype='string' name='Comments - Split 6' ordinal='6' />
-            <column datatype='string' name='Comments - Split 7' ordinal='7' />
-            <column datatype='string' name='Comments - Split 8' ordinal='8' />
-            <column datatype='string' name='Comments - Split 9' ordinal='9' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[comment_text_clean.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Comments - Split 1</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Comments - Split 1]</local-name>
-            <parent-name>[comment_text_clean.csv]</parent-name>
-            <remote-alias>Comments - Split 1</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Comments - Split 10</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Comments - Split 10]</local-name>
-            <parent-name>[comment_text_clean.csv]</parent-name>
-            <remote-alias>Comments - Split 10</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Comments - Split 2</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Comments - Split 2]</local-name>
-            <parent-name>[comment_text_clean.csv]</parent-name>
-            <remote-alias>Comments - Split 2</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Comments - Split 3</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Comments - Split 3]</local-name>
-            <parent-name>[comment_text_clean.csv]</parent-name>
-            <remote-alias>Comments - Split 3</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Comments - Split 4</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Comments - Split 4]</local-name>
-            <parent-name>[comment_text_clean.csv]</parent-name>
-            <remote-alias>Comments - Split 4</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Comments - Split 5</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Comments - Split 5]</local-name>
-            <parent-name>[comment_text_clean.csv]</parent-name>
-            <remote-alias>Comments - Split 5</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Comments - Split 6</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Comments - Split 6]</local-name>
-            <parent-name>[comment_text_clean.csv]</parent-name>
-            <remote-alias>Comments - Split 6</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Comments - Split 7</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Comments - Split 7]</local-name>
-            <parent-name>[comment_text_clean.csv]</parent-name>
-            <remote-alias>Comments - Split 7</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Comments - Split 8</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Comments - Split 8]</local-name>
-            <parent-name>[comment_text_clean.csv]</parent-name>
-            <remote-alias>Comments - Split 8</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Comments - Split 9</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Comments - Split 9]</local-name>
-            <parent-name>[comment_text_clean.csv]</parent-name>
-            <remote-alias>Comments - Split 9</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <_.fcp.ObjectModelTableType.true...column caption='comment_text_clean.csv' datatype='table' name='[__tableau_internal_object_id__].[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]' role='measure' type='quantitative' />
-      <drill-paths>
-        <drill-path name='country, state, city' />
-      </drill-paths>
-      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/jhank/Documents/My Tableau Repository/Datasources/comment_text_clean.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='09/20/2022 08:59:50 PM' username='tableau_internal_user'>
-          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <refresh>
-            <refresh-event add-from-file-path='comment_text_clean' increment-value='%null%' refresh-type='create' rows-inserted='80332' timestamp-start='2022-09-20 20:59:47.534' />
-          </refresh>
-          <metadata-records>
-            <metadata-record class='column'>
-              <remote-name>Comments - Split 1</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Comments - Split 1]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Comments - Split 1</remote-alias>
-              <ordinal>0</ordinal>
-              <family>comment_text_clean.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>3019</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Comments - Split 10</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Comments - Split 10]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Comments - Split 10</remote-alias>
-              <ordinal>1</ordinal>
-              <family>comment_text_clean.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>4031</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Comments - Split 2</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Comments - Split 2]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Comments - Split 2</remote-alias>
-              <ordinal>2</ordinal>
-              <family>comment_text_clean.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>3763</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Comments - Split 3</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Comments - Split 3]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Comments - Split 3</remote-alias>
-              <ordinal>3</ordinal>
-              <family>comment_text_clean.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>3054</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Comments - Split 4</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Comments - Split 4]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Comments - Split 4</remote-alias>
-              <ordinal>4</ordinal>
-              <family>comment_text_clean.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>4270</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Comments - Split 5</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Comments - Split 5]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Comments - Split 5</remote-alias>
-              <ordinal>5</ordinal>
-              <family>comment_text_clean.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>4523</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Comments - Split 6</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Comments - Split 6]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Comments - Split 6</remote-alias>
-              <ordinal>6</ordinal>
-              <family>comment_text_clean.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>4837</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Comments - Split 7</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Comments - Split 7]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Comments - Split 7</remote-alias>
-              <ordinal>7</ordinal>
-              <family>comment_text_clean.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>4043</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Comments - Split 8</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Comments - Split 8]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Comments - Split 8</remote-alias>
-              <ordinal>8</ordinal>
-              <family>comment_text_clean.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>4148</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Comments - Split 9</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Comments - Split 9]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Comments - Split 9</remote-alias>
-              <ordinal>9</ordinal>
-              <family>comment_text_clean.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>4000</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-          </metadata-records>
-        </connection>
-      </extract>
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='comment_text_clean.csv' id='comment_text_clean.csv_FC85FE82865D4C63975A448763AB1B5B'>
-            <properties context=''>
-              <relation connection='textscan.17orexf0xn6l4q10oymq31fy9yy4' name='comment_text_clean.csv' table='[comment_text_clean#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-                  <column datatype='string' name='Comments - Split 1' ordinal='0' />
-                  <column datatype='string' name='Comments - Split 10' ordinal='1' />
-                  <column datatype='string' name='Comments - Split 2' ordinal='2' />
-                  <column datatype='string' name='Comments - Split 3' ordinal='3' />
-                  <column datatype='string' name='Comments - Split 4' ordinal='4' />
-                  <column datatype='string' name='Comments - Split 5' ordinal='5' />
-                  <column datatype='string' name='Comments - Split 6' ordinal='6' />
-                  <column datatype='string' name='Comments - Split 7' ordinal='7' />
-                  <column datatype='string' name='Comments - Split 8' ordinal='8' />
-                  <column datatype='string' name='Comments - Split 9' ordinal='9' />
                 </columns>
               </relation>
             </properties>
@@ -1723,8 +1525,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2000' minheight='2000' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='92' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='91' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='88' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='87' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='92' h='11500' id='3' is-fixed='true' name='total_sightings' w='30400' x='800' y='-125'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1852,7 +1654,7 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='28'>
+          <strip size='29'>
             <card type='title' />
           </strip>
         </edge>
@@ -1917,7 +1719,7 @@
       </viewpoint>
       <simple-id uuid='{5EAF8C48-93B1-48A6-AE50-840B9FF147E8}' />
     </window>
-    <window class='worksheet' maximized='true' name='wordcloud'>
+    <window class='worksheet' name='wordcloud'>
       <cards>
         <edge name='left'>
           <strip size='128'>
@@ -2027,7 +1829,7 @@
                 </columns>
               </tuple-descriptor>
               <tuple>
-                <value>12072358.58333344</value>
+                <value>12072358.583333239</value>
               </tuple>
             </tuple-reference>
           </tuple-selection>
@@ -2146,7 +1948,7 @@
       </viewpoint>
       <simple-id uuid='{DA78F29D-8E0F-4C93-A986-E6C97E972630}' />
     </window>
-    <window class='dashboard' name='UFO_dash'>
+    <window class='dashboard' maximized='true' name='UFO_dash'>
       <viewpoints>
         <viewpoint name='Duration_shape' />
         <viewpoint name='Map'>
@@ -2164,7 +1966,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='9' />
+      <active id='-1' />
       <simple-id uuid='{70B4389A-0D1C-4524-A6AE-43A3FBD4DC8E}' />
     </window>
   </windows>
